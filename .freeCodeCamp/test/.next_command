@@ -41,3 +41,7 @@ pg_dump -cC --inserts -U freecodecamp worldcup > worldcup.sql
 psql --username=freecodecamp --dbname=worldcup
 ./queries.sh
 ./queries.sh
+git branch
+git push -u new-origin main
+git init
+git add .
